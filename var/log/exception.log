@@ -1,0 +1,324 @@
+[2021-01-08 10:08:35] main.CRITICAL: Class Magento\Framework\App\Http\Interceptor does not exist {"exception":"[object] (ReflectionException(code: -1): Class Magento\\Framework\\App\\Http\\Interceptor does not exist at /var/www/html/m4/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-01-08 10:09:28] main.CRITICAL: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+Learning_GreetingMessage schema: current version - 0.0.4, required version - 0.0.6 {"report_id":"204c60c5a45a9cb1abe9c77fd028b18f6a31d4c041c65c9222719d0b31e06a68","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+Learning_GreetingMessage schema: current version - 0.0.4, required version - 0.0.6 at /var/www/html/m4/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:66)"} []
+[2021-01-08 10:25:37] main.CRITICAL: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+Learning_GreetingMessage schema: current version - 0.0.4, required version - 0.0.6 {"report_id":"862804766e1cec829461e34db94855d9c8975ba46cac61b4b0f56ce6f8ba54b0","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+Learning_GreetingMessage schema: current version - 0.0.4, required version - 0.0.6 at /var/www/html/m4/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:66)"} []
+[2021-01-08 12:29:19] main.CRITICAL: Unable to send mail: Unknown error {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail: Unknown error at /var/www/html/m4/vendor/magento/module-email/Model/Transport.php:103, Laminas\\Mail\\Transport\\Exception\\RuntimeException(code: 0): Unable to send mail: Unknown error at /var/www/html/m4/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:304)"} []
+[2021-01-08 13:14:16] main.CRITICAL: Unable to send mail: Unknown error {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail: Unknown error at /var/www/html/m4/vendor/magento/module-email/Model/Transport.php:103, Laminas\\Mail\\Transport\\Exception\\RuntimeException(code: 0): Unable to send mail: Unknown error at /var/www/html/m4/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:304)"} []
+[2021-01-09 07:12:21] main.CRITICAL: Cannot resize image "/var/www/html/m4/pub/media/catalog/product/4/_/4_2_.jpg.tmp" - original image not found {"exception":"[object] (Magento\\Framework\\Exception\\NotFoundException(code: 0): Cannot resize image \"/var/www/html/m4/pub/media/catalog/product/4/_/4_2_.jpg.tmp\" - original image not found at /var/www/html/m4/vendor/magento/module-media-storage/Service/ImageResize.php:167)"} []
+[2021-01-09 08:46:35] main.CRITICAL: Class Magento\Framework\App\Http\Interceptor does not exist {"exception":"[object] (ReflectionException(code: -1): Class Magento\\Framework\\App\\Http\\Interceptor does not exist at /var/www/html/m4/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-01-09 11:50:43] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x1sm11797879pfc.112 - gsmtp
+ {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x1sm11797879pfc.112 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x1sm11797879pfc.112 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-09 11:54:22] main.CRITICAL: 5.7.0 Authentication Required. Learn more at
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError f29sm12230660pgm.76 - gsmtp
+ {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.0 Authentication Required. Learn more at
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError f29sm12230660pgm.76 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.0 Authentication Required. Learn more at
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError f29sm12230660pgm.76 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-09 14:27:39] main.CRITICAL: The XML in file "/var/www/html/m4/app/code/Anjulata/Email/etc/email_templates.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 2
+
+Verify the XML and try again. {"report_id":"f8f41222167ae78fe2c07c2742f7f7862d34deca80e4b3fc4b9877c4c4f9d098","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The XML in file \"/var/www/html/m4/app/code/Anjulata/Email/etc/email_templates.xml\" is invalid:
+XML declaration allowed only at the start of the document
+Line: 2
+
+Verify the XML and try again. at /var/www/html/m4/vendor/magento/framework/Config/Reader/Filesystem.php:156)"} []
+[2021-01-09 14:30:11] main.CRITICAL: The XML in file "/var/www/html/m4/app/code/Anjulata/Email/etc/email_templates.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 2
+
+Verify the XML and try again. {"report_id":"0795610adb75a797b9cc03f47cd45acd12dadf074a5a098fd4be6c0d6b8fc37b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The XML in file \"/var/www/html/m4/app/code/Anjulata/Email/etc/email_templates.xml\" is invalid:
+XML declaration allowed only at the start of the document
+Line: 2
+
+Verify the XML and try again. at /var/www/html/m4/vendor/magento/framework/Config/Reader/Filesystem.php:156)"} []
+[2021-01-09 14:32:53] main.CRITICAL: Invalid return type {"report_id":"e374fe97eee29a2c883d455e8c1140dc655f3fb0c4302baeb45c37ce3cbc61ea","exception":"[object] (InvalidArgumentException(code: 0): Invalid return type at /var/www/html/m4/vendor/magento/framework/App/Http.php:124)"} []
+[2021-01-09 14:35:05] main.CRITICAL: Invalid return type {"report_id":"2c9bfba08100f7d004addd7ec9aaf250a66252f163af2deaaccd6f9ff9667bb4","exception":"[object] (InvalidArgumentException(code: 0): Invalid return type at /var/www/html/m4/vendor/magento/framework/App/Http.php:124)"} []
+[2021-01-09 14:39:25] main.CRITICAL: Invalid return type {"report_id":"b1d4d0c2982d814b7aa7436cf9ff7aff84d5d40e9c5b66fcdfa22c14ac724392","exception":"[object] (InvalidArgumentException(code: 0): Invalid return type at /var/www/html/m4/vendor/magento/framework/App/Http.php:124)"} []
+[2021-01-09 14:42:28] main.CRITICAL: Class Magento\Framework\App\Config\Initial\Reader\Proxy does not exist {"exception":"[object] (ReflectionException(code: -1): Class Magento\\Framework\\App\\Config\\Initial\\Reader\\Proxy does not exist at /var/www/html/m4/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-01-09 14:43:13] main.CRITICAL: Invalid return type {"report_id":"1494247d03dcfd5ccf1d5e182c837fb4e6bb8ef8e01519bab147009fa7661f4b","exception":"[object] (InvalidArgumentException(code: 0): Invalid return type at /var/www/html/m4/vendor/magento/framework/App/Http.php:124)"} []
+[2021-01-10 06:04:45] main.CRITICAL: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) {"report_id":"bb21b41a40bb92e51d9137256544f8b65afe155e954bbbbbd89584ac8dca8e37","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:107, ErrorException(code: 0): stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102)"} []
+[2021-01-10 06:05:03] main.CRITICAL: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) {"report_id":"8fbd0acf77a5b47dda791aaceba5203192ebad05fc1825441883f0a232fdc985","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:107, ErrorException(code: 0): stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102)"} []
+[2021-01-10 06:05:06] main.CRITICAL: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) {"report_id":"b9c9f4c8be1107d54014d9b4dd0229138658d19fb38d700a92aca3bedeb28732","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:107, ErrorException(code: 0): stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102)"} []
+[2021-01-10 06:05:44] main.CRITICAL: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) {"report_id":"e03b5e0851d19e625682012442044a9387bd6c9bcdfcd87f270afb62744b84fb","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) (errno = 0 ) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:107, ErrorException(code: 0): stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102)"} []
+[2021-01-10 07:11:54] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials y6sm19142342pjl.0 - gsmtp
+ {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials y6sm19142342pjl.0 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials y6sm19142342pjl.0 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 07:18:05] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials k16sm15562981pgg.87 - gsmtp
+ {"report_id":"cc482406169148a6afc7c1fb5f72714adb457d826b433648ff4349ef6b719e35","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials k16sm15562981pgg.87 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials k16sm15562981pgg.87 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 07:18:59] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials h5sm15759813pgl.86 - gsmtp
+ {"report_id":"a8d9a94f94bfddb2fe930c059856da8d262f078f26b39c57170458e088eb6671","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials h5sm15759813pgl.86 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials h5sm15759813pgl.86 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 08:18:56] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials cl23sm13376560pjb.23 - gsmtp
+ {"report_id":"f2fd2f37353b266d44eaa48777142aa37605dfe878e4b1f3073086875e2c341a","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials cl23sm13376560pjb.23 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials cl23sm13376560pjb.23 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 08:19:46] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d124sm15569587pgc.68 - gsmtp
+ {"report_id":"bec0772e49af28d0e41536e3a5674e47926c77ae9a9b463c0e88dd6156b33bf7","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d124sm15569587pgc.68 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d124sm15569587pgc.68 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 08:26:51] main.CRITICAL: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) (errno = 0 ) {"report_id":"76221f76c2d364be34bef782d4115ae72138254d40ad3becd659e434c5ed668c","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) (errno = 0 ) at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) (errno = 0 ) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:107, ErrorException(code: 0): stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): Failed to enable crypto at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): SSL: Success at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102)"} []
+[2021-01-10 08:38:01] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials l197sm15277023pfd.97 - gsmtp
+ {"report_id":"6c53dd47bf9222c356b410298622fbe7098fbbbd0819a2d3892a8e6c35de61c5","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials l197sm15277023pfd.97 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials l197sm15277023pfd.97 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 08:45:22] main.CRITICAL: Template file 'Anjulata_Email::send_product_detail.phtml' is not found. {"report_id":"2766d05cebe9605ce6651b63c5fccc427ba9be3ad2c651adff4d7343b78d927c","exception":"[object] (UnexpectedValueException(code: 0): Template file 'Anjulata_Email::send_product_detail.phtml' is not found. at /var/www/html/m4/vendor/magento/module-email/Model/Template/Config.php:251)"} []
+[2021-01-10 08:45:46] main.CRITICAL: Template file 'Anjulata_Email::send_product_detail.phtml' is not found. {"report_id":"db67ae6594c2b28cb806fcbde6134c4e82e679f77614063d1e49bf13c9f90407","exception":"[object] (UnexpectedValueException(code: 0): Template file 'Anjulata_Email::send_product_detail.phtml' is not found. at /var/www/html/m4/vendor/magento/module-email/Model/Template/Config.php:251)"} []
+[2021-01-10 08:46:09] main.CRITICAL: Template file 'Anjulata_Email::send_product_detail.phtml' is not found. {"report_id":"0b6716b167c8facad41da61a11d3ed182750fa64cd9f0cb3f154b946519c8373","exception":"[object] (UnexpectedValueException(code: 0): Template file 'Anjulata_Email::send_product_detail.phtml' is not found. at /var/www/html/m4/vendor/magento/module-email/Model/Template/Config.php:251)"} []
+[2021-01-10 09:07:52] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x143sm16861592pgx.66 - gsmtp
+ {"report_id":"fd58f3d152ec306dfe6a06e3ed5f5953e5f18eb887cc770aabe324f9bbaff8fd","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x143sm16861592pgx.66 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x143sm16861592pgx.66 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 09:09:19] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c5sm16747925pgt.73 - gsmtp
+ {"report_id":"d34125d7cd1401188f019e54c05838894735c0cae667e3830a5fca7c7090b602","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c5sm16747925pgt.73 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c5sm16747925pgt.73 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 09:15:43] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 186sm15251097pfx.100 - gsmtp
+ {"report_id":"80e276d63334440909af25aef8e75131308c0e3810169443916350aee2a0e99e","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 186sm15251097pfx.100 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 186sm15251097pfx.100 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 09:42:21] main.CRITICAL: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) (errno = 0 ) {"report_id":"8898d564209446cc72d3ed505b116be8d182d869b4af913ef8264c01ef951271","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) (errno = 0 ) at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): cannot connect to host; error = stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) (errno = 0 ) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:107, ErrorException(code: 0): stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): Failed to enable crypto at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102, ErrorException(code: 0): stream_socket_client(): SSL: Success at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:102)"} []
+[2021-01-10 09:43:42] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 21sm15269659pfx.84 - gsmtp
+ {"report_id":"63b14ab73be3eab4e00704fbbcece8d5d3da7c651cbfed4dcd71964c430ca7d0","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 21sm15269659pfx.84 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 21sm15269659pfx.84 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 09:44:18] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w27sm15371852pfq.104 - gsmtp
+ {"report_id":"5775ad6bd416421ef87927d7a533d99f5e8d8fd1d8d893c4a097d4c9bf6157b6","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w27sm15371852pfq.104 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w27sm15371852pfq.104 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 09:48:10] main.CRITICAL: Notice: Trying to get property 'nodeValue' of non-object in /var/www/html/m4/vendor/magento/module-email/Model/Template/Config/Converter.php on line 26 {"report_id":"eb2de635904117c9eec0fafa0eefea0e1742686a0771ed95568043017878d48f","exception":"[object] (Exception(code: 0): Notice: Trying to get property 'nodeValue' of non-object in /var/www/html/m4/vendor/magento/module-email/Model/Template/Config/Converter.php on line 26 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 09:49:51] main.CRITICAL: Template file 'Anjulata_Email::send_product_detail.phtml' is not found. {"report_id":"8e93c323de2075039b29670650f18de7c3d4a221b02da0899901d31f3ec695af","exception":"[object] (UnexpectedValueException(code: 0): Template file 'Anjulata_Email::send_product_detail.phtml' is not found. at /var/www/html/m4/vendor/magento/module-email/Model/Template/Config.php:251)"} []
+[2021-01-10 09:50:50] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials h8sm16651680pjc.2 - gsmtp
+ {"report_id":"6d10b4ec2004b3fc485b7bafbee3fa9f4cae7a7943c26dd42044cd741df7d248","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials h8sm16651680pjc.2 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials h8sm16651680pjc.2 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 09:54:08] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials t2sm16511523pga.45 - gsmtp
+ {"report_id":"b1436cdb7264bd69c6cf93d3205ec1e12d52afde60cf7257634b95f9bdc87c2d","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials t2sm16511523pga.45 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials t2sm16511523pga.45 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 09:57:12] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials l21sm9781779pff.30 - gsmtp
+ {"report_id":"81c1a8f902e6423e3f087e27dd8d91ae213f4896594ebd0dcdabbe7c2ed21cd1","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials l21sm9781779pff.30 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials l21sm9781779pff.30 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 10:22:08] main.CRITICAL: Recoverable Error: Object of class Magento\Store\Model\Store\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 {"exception":"[object] (Exception(code: 0): Recoverable Error: Object of class Magento\\Store\\Model\\Store\\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:22:08] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"36ed3d34a9bc524d668b6d72cc1a4ab538a2b48339bf7581335216e6628e0b6c","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 10:22:15] main.CRITICAL: Recoverable Error: Object of class Magento\Store\Model\Store\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 {"exception":"[object] (Exception(code: 0): Recoverable Error: Object of class Magento\\Store\\Model\\Store\\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:22:15] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"6ba2204ed1ef2cb031d51084de86c63051adda7d5c5d119be2eb4c31d7469a5d","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 10:24:04] main.CRITICAL: Recoverable Error: Object of class Magento\Store\Model\Store\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 {"exception":"[object] (Exception(code: 0): Recoverable Error: Object of class Magento\\Store\\Model\\Store\\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:24:04] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"54fffe6977ba21ec6a24b8110c21ae1694bfe13a7764ff6aae79eea5880a70d8","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 10:24:09] main.CRITICAL: Recoverable Error: Object of class Magento\Store\Model\Store\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 {"exception":"[object] (Exception(code: 0): Recoverable Error: Object of class Magento\\Store\\Model\\Store\\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:24:09] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"6621006df0f77e892a763cb7a8f169f9a9240ba4a59e829054ce04e511c8b9f5","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 10:24:41] main.CRITICAL: Recoverable Error: Object of class Magento\Store\Model\Store\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 {"exception":"[object] (Exception(code: 0): Recoverable Error: Object of class Magento\\Store\\Model\\Store\\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:24:41] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"fd91dfb6784fff2064110ba95259c93dd3213cf6766b31c92d00877c1c015eb2","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 10:26:05] main.CRITICAL: Recoverable Error: Object of class Magento\Store\Model\Store\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 {"exception":"[object] (Exception(code: 0): Recoverable Error: Object of class Magento\\Store\\Model\\Store\\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:26:05] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"0d378dccd780d55e4c6b88ee7ec875419493c58dddf916a706f05f293be99198","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 10:26:06] main.CRITICAL: Recoverable Error: Object of class Magento\Store\Model\Store\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 {"exception":"[object] (Exception(code: 0): Recoverable Error: Object of class Magento\\Store\\Model\\Store\\Interceptor could not be converted to string in /var/www/html/m4/vendor/magento/framework/Escaper.php on line 78 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:26:06] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"79b72677ded58bcc31603fb491471ad9f5f8d0819067cc7cde876643577c13b9","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 10:27:16] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"d98a1f1c470f22f204a73cd2d5277ca1937d842bcb0b93c3aa6742482e484de1","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:27:24] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"0873b6871061d22dfce268a519f966b820556697eb829e80bc77b83e56ead0d3","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:27:28] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"f188a644693ae3e3d349a834fa94769998a651623e38c97ce8fdbe04bf73e983","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:53:24] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"1683ef0cd66c918729ac7962591e22ba9d5ddf38f8f18f583d074b6c486b93ed","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 10:53:38] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"0a0cdb0b90b03a88ce374dac94a1585dc7e1e40ae5abe3e329a9b118e1a2284e","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 11:11:42] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"a877ebdd61ef8ce8a5ba1fb3242f1329b0d00f427f160cdfe7bd5b739cc5342e","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 11:12:17] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"a1f891b408ae2dd16a80424580f8ef2dbc93bb7368521aa489c035e93809b6b7","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 11:12:23] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"b22ffdd18b80bb2dd57384004899873a627cfb3763c9260b80362bd36f7d9a1b","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 11:15:26] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"9ef8c4594876e841c8a769ef1b50529c5034bafa17459ce481a3a8f18c3b6e6f","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 11:18:36] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials m22sm16734577pgj.46 - gsmtp
+ {"report_id":"54ce34c9f8a843d3d99b27b7e47d641ac3b5c3bc081bccc136b95da270fb681d","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials m22sm16734577pgj.46 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials m22sm16734577pgj.46 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:18:45] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 7sm15881217pfh.142 - gsmtp
+ {"report_id":"4c3959bd45f6fde7a9149f2f6cb0ecacd9a70886046fd0b012e32c0df59042c5","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 7sm15881217pfh.142 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 7sm15881217pfh.142 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:18:54] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n28sm15694430pfq.61 - gsmtp
+ {"report_id":"8c8e232ca1fd13b85b1a5ebdc0d965d1300092a5e0ef3efb34d7ac1530b50c47","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n28sm15694430pfq.61 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n28sm15694430pfq.61 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:19:04] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c10sm15570330pfj.54 - gsmtp
+ {"report_id":"79b97b52f9154026718a15ac5ce5bc2700dee6d30f99c80abe1429895acbd37b","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c10sm15570330pfj.54 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c10sm15570330pfj.54 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:26:35] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"e132e4d7050a899614b676616c86fae9970ce34224c8af2ccdf95889a2819f78","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 11:28:38] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 22sm15370736pfn.190 - gsmtp
+ {"report_id":"9b1b242bde8da23814ab24fe8f2d3195c96f41ba6735ebd4d01d3a54cf060b9e","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 22sm15370736pfn.190 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 22sm15370736pfn.190 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:29:14] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials s23sm16298990pgj.29 - gsmtp
+ {"report_id":"babdc35cb84c873b5750a05b0df630b90e82855dcf16f291eed76de49cdcdd7c","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials s23sm16298990pgj.29 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials s23sm16298990pgj.29 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:35:10] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x20sm15465776pfc.3 - gsmtp
+ {"report_id":"7db216decd1deac54dcc43979481227e34df3714e1252cc7a92a67b15af34fe8","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x20sm15465776pfc.3 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x20sm15465776pfc.3 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:41:07] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g16sm15153994pfh.187 - gsmtp
+ {"report_id":"b39a533766a1425e7a02e101c27e491e198eb870d2366f74a819b38d1b13c175","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g16sm15153994pfh.187 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g16sm15153994pfh.187 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:42:00] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i13sm15915659pgd.32 - gsmtp
+ {"report_id":"6ca69b0646b32405ffbd3271c82bd0c85fdffcd96d36ddb2762c8c8adc50b517","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i13sm15915659pgd.32 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i13sm15915659pgd.32 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:43:57] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials o14sm16853296pgr.44 - gsmtp
+ {"report_id":"8e2e9620dd08c95ff80345643d2f56778788e1fe16ef68be31d092585e7cea3c","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials o14sm16853296pgr.44 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials o14sm16853296pgr.44 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 11:58:05] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 123sm16530509pgf.38 - gsmtp
+ {"report_id":"58bb0caf750baf0d2ec50562cfdd608c27d8f774068dd22dba9564499d972982","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 123sm16530509pgf.38 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 123sm16530509pgf.38 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 12:25:57] main.CRITICAL: Notice: Array to string conversion in /var/www/html/m4/vendor/magento/framework/Filter/DirectiveProcessor/LegacyDirective.php on line 42 {"exception":"[object] (Exception(code: 0): Notice: Array to string conversion in /var/www/html/m4/vendor/magento/framework/Filter/DirectiveProcessor/LegacyDirective.php on line 42 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:25:57] main.CRITICAL: Content must be string or resource; received "Magento\Framework\Phrase" {"report_id":"c98dbb6e21567575b3a85d759a7e9f0857570de0bc318154cfd4a0247ac51868","exception":"[object] (Magento\\Framework\\Mail\\Exception\\InvalidArgumentException(code: 0): Content must be string or resource; received \"Magento\\Framework\\Phrase\" at /var/www/html/m4/vendor/magento/framework/Mail/MimePart.php:66)"} []
+[2021-01-10 12:30:47] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"66933ff4f128a0cc988d7961de272eda924443ec353045adbe071761f62e9d2c","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:31:26] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"fe0434e1e8be9241e650caf89efbea919ae47f8b36b3e864c4c4981d48a0b197","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:33:14] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"e355c1b42d53a61462000053d3d60f2f7e35f392c4dca27931cf860db494f71d","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:35:38] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"9b2012dca7a7c6552486d9e8e82dd9c1b80878c941cfc5230ef4bc0d3f3d221a","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:35:56] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"7731d9731d66caaa5b1fc953277c444fe21ebac8adef15e937d743d276dcb742","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:40:43] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"be4bf50a66a70ce2995198ce4861b9204aa57b07dd8357aac6db8653d8444bb6","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:41:51] main.CRITICAL: Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 {"report_id":"889dd17c42dfd5df9d95c6891b4baea274a26d221375999cbf6f32daefed90bb","exception":"[object] (Exception(code: 0): Warning: Illegal string offset 'frontend_name' in /var/www/html/m4/vendor/magento/module-email/Model/AbstractTemplate.php on line 465 at /var/www/html/m4/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2021-01-10 12:43:54] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials r79sm15470244pfc.166 - gsmtp
+ {"report_id":"091f64095ea61b90483ce6973405f640a017a72f83ba930c09f1fd7465ec2155","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials r79sm15470244pfc.166 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials r79sm15470244pfc.166 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 13:00:09] main.CRITICAL: Email template 'test2' is not defined. {"report_id":"c83eb42b3135ae5ee85a6057d53eb169f83c77eab9a4868ad7c951da83c35e17","exception":"[object] (UnexpectedValueException(code: 0): Email template 'test2' is not defined. at /var/www/html/m4/vendor/magento/module-email/Model/Template/Config.php:225)"} []
+[2021-01-10 13:01:55] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n15sm16025081pgl.31 - gsmtp
+ {"report_id":"cbf5e6b5205baa5a7d7a6eff5c57127c589c0addcf51f5dc51d88dc4171fcf2a","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n15sm16025081pgl.31 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n15sm16025081pgl.31 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 13:05:53] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials ds24sm14162952pjb.30 - gsmtp
+ {"report_id":"2f4117972561150e99b6177fdc8bd4ea4d0a7e4feccf78e4470ce7ee83a94b40","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials ds24sm14162952pjb.30 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials ds24sm14162952pjb.30 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 13:06:55] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d133sm15214183pfd.6 - gsmtp
+ {"report_id":"6f571eefb828928d047b816ea103f1b0a2fc9f19c05844380f6e22abe34d6ec3","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d133sm15214183pfd.6 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d133sm15214183pfd.6 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 13:08:13] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z3sm15843874pfq.89 - gsmtp
+ {"report_id":"1b01c375803a5a967c9902d8e9b0ada8c0bd99e487b6245fd476164d2ad86120","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z3sm15843874pfq.89 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z3sm15843874pfq.89 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 13:18:52] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 129sm15474303pfw.86 - gsmtp
+ {"report_id":"a05b7499cc915ea4305419c94099144d3e85dcea620ca2c2d2eeba83fed65a18","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 129sm15474303pfw.86 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 129sm15474303pfw.86 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-10 13:48:58] main.CRITICAL: 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 22sm11644483pjw.19 - gsmtp
+ {"report_id":"cfab237983819d772f9e8158db0e5894bbb195f80a9219b00d7d38d452035052","exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 22sm11644483pjw.19 - gsmtp
+ at /var/www/html/m4/vendor/mageplaza/module-smtp/Mail/Transport.php:142, Laminas\\Mail\\Protocol\\Exception\\RuntimeException(code: 0): 5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 22sm11644483pjw.19 - gsmtp
+ at /var/www/html/m4/vendor/laminas/laminas-mail/src/Protocol/AbstractProtocol.php:351)"} []
+[2021-01-12 12:56:50] main.CRITICAL: Type Error occurred when creating object: Anjulata\Post\Controller\Index\Booking\Interceptor {"report_id":"d07b83a8d137c838abad928dd83f8fb7e04c16e41a3062b801293d5c67ff3f33","exception":"[object] (Magento\\Framework\\Exception\\RuntimeException(code: 0): Type Error occurred when creating object: Anjulata\\Post\\Controller\\Index\\Booking\\Interceptor at /var/www/html/m4/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:131)"} []
+[2021-01-12 13:21:37] main.CRITICAL: Class Magento\Framework\App\Config\Initial\Reader\Proxy does not exist {"exception":"[object] (ReflectionException(code: -1): Class Magento\\Framework\\App\\Config\\Initial\\Reader\\Proxy does not exist at /var/www/html/m4/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-01-12 13:37:13] main.CRITICAL: Class Magento\Framework\App\Http\Interceptor does not exist {"exception":"[object] (ReflectionException(code: -1): Class Magento\\Framework\\App\\Http\\Interceptor does not exist at /var/www/html/m4/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []

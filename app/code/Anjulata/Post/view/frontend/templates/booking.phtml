@@ -1,0 +1,19 @@
+<h1>Post page</h1>
+
+<!--<form action="--><?php //echo $block->getFormAction() ?><!--" method="post">-->
+<form id="custom_form" class="form" method="post" action="<?php echo $block->getFormAction() ?>">
+    <input name="form_key" type="hidden" value="<?php echo $block->getFormKey();?>">
+
+    <!--<input name="firstname" type="text">
+    <input name="lastname" type="text">
+    <input name="phone" type="text">
+    <input name="bookingTime" type="date">
+    <input type="submit" value="Send booking informations">-->
+    <label>Name: <input name="name" type="text"></label>
+    <label>url key: <input name="url_key" type="text"></label>
+    <label>content: <input name="post_content" type="text"></label>
+    <label>tags: <input name="tags" type="text"></label>
+    <label>status: <input name="status" type="text"></label>
+    <label>feature image: <input name="featured_image" type="text"></label>
+    <input type="submit" value="Send post informations">
+</form>
