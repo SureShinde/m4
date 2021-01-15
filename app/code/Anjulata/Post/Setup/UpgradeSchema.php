@@ -13,9 +13,9 @@ class UpgradeSchema implements UpgradeSchemaInterface
         $installer->startSetup();
 
         if(version_compare($context->getVersion(), '1.1.0', '<')) {
-            if (!$installer->tableExists('anjulata_crud_post')) {
+            if (!$installer->tableExists('anjulata_post')) {
                 $table = $installer->getConnection()->newTable(
-                    $installer->getTable('anjulata_crud_post')
+                    $installer->getTable('anjulata_post')
                 )
                     ->addColumn(
                         'post_id',
@@ -97,6 +97,63 @@ class UpgradeSchema implements UpgradeSchemaInterface
                     \Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT
                 );
             }
+        }
+        if (version_compare($context->getVersion(), '1.1.1', '<')) {
+            $setup->getConnection()->addColumn(
+                $setup->getTable('anjulata_post'),
+                'email',
+                [
+                    'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+                    'length' => 50,
+                    'nullable' => true,
+                    'default' => 'Null',
+                    'comment' => 'email'
+                ]
+            );
+            $setup->getConnection()->addColumn(
+                $setup->getTable('anjulata_post'),
+                'mobile',
+                [
+                    'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+                    'length' => 50,
+                    'nullable' => true,
+                    'default' => 'Null',
+                    'comment' => 'mobile'
+                ]
+            );
+            $setup->getConnection()->addColumn(
+                $setup->getTable('anjulata_post'),
+                'cdate',
+                [
+                    'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+                    'length' => 50,
+                    'nullable' => true,
+                    'default' => 'Null',
+                    'comment' => 'cdate'
+                ]
+            );
+            $setup->getConnection()->addColumn(
+                $setup->getTable('anjulata_post'),
+                'post_status',
+                [
+                    'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+                    'length' => 50,
+                    'nullable' => true,
+                    'default' => 'Null',
+                    'comment' => 'post status'
+                ]
+            );
+            $setup->getConnection()->addColumn(
+                $setup->getTable('anjulata_post'),
+                'radio_select',
+                [
+                    'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+                    'length' => 50,
+                    'nullable' => true,
+                    'default' => 'Null',
+                    'comment' => 'radio select'
+                ]
+            );
         }
 
         $installer->endSetup();
