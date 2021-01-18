@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>HTML title - The post form page</title>
+    </head>
+    <body>
+        <referenceBlock name="navigation.sections" remove="true" />
+        <referenceContainer name="content">
+            <block class="Anjulata\Post\Block\Index" name="post.index" template="Anjulata_Post::index.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

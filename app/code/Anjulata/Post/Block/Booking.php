@@ -8,6 +8,9 @@ use Magento\Framework\Controller\Result\RedirectFactory;
 class Booking extends \Magento\Framework\View\Element\Template
 {
     protected $formKey;
+    protected $_pageFactory;
+    protected $_coreRegistry;
+    protected $_postLoader;
     /**
      * Construct
      *
@@ -17,12 +20,20 @@ class Booking extends \Magento\Framework\View\Element\Template
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
         \Magento\Framework\Controller\Result\RedirectFactory $resultRedirectFactory,
+        \Magento\Framework\View\Result\PageFactory $pageFactory,
+        \Magento\Framework\Registry $coreRegistry,
+        \Anjulata\Post\Model\PostFactory $postLoader,
         FormKey $formKey,
         array $data = []
     )
     {
         $this->resultRedirectFactory = $resultRedirectFactory;
         $this->formKey = $formKey;
+
+        $this->_pageFactory = $pageFactory;
+        $this->_coreRegistry = $coreRegistry;
+        $this->_postLoader = $postLoader;
+
         parent::__construct($context, $data);
     }
     public function getFormKey()
@@ -43,5 +54,13 @@ class Booking extends \Magento\Framework\View\Element\Template
        // return 'm4/post/index/save';
         return $this->getUrl('post/index/save');
         // here controller_name is index, action is booking
+    }
+    public function getEditRecord()
+    {
+        $id = $this->_coreRegistry->registry('editRecordId');
+        $post = $this->_postLoader->create();
+        $result = $post->load($id);
+        $result = $result->getData();
+        return $result;
     }
 }

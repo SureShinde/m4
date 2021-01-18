@@ -1,5 +1,5 @@
 <h1>Post page</h1>
-
+<?php print_r($block->getEditRecord()); ?>
 <!--<form action="--><?php //echo $block->getFormAction() ?><!--" method="post">-->
 <form id="custom_form" class="form" method="post" action="<?php echo $block->getFormAction() ?>" data-mage-init='{"validation":{"rules": {"post_content": {"required":true}}}}'>
     <fieldset class="fieldset">

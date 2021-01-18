@@ -1,0 +1,32 @@
+<h1>Post list</h1>
+<?php
+//echo "<pre>";
+$collection = $block->getPostData();
+    echo "<table>";
+    echo "<tr>";
+    echo "<td>Id</td>";
+    echo "<td>Name</td>";
+    echo "<td>Url Key</td>";
+    echo "<td>Post Content</td>";
+    echo "<td>Tags</td>";
+    echo "<td>Status</td>";
+    echo "<td>Feature Image</td>";
+    echo "<td>Action</td>";
+    echo "</tr>";
+    foreach($collection as $item){
+        /*echo "<pre>";
+        print_r($item);
+        echo "</pre>";*/
+            echo "<tr>";
+            echo "<td>".$item['post_id']."</td>";
+            echo "<td>".$item['name']."</td>";
+            echo "<td>".$item['url_key']."</td>";
+            echo "<td>".$item['post_content']."</td>";
+            echo "<td>".$item['tags']."</td>";
+            echo "<td>".$item['status']."</td>";
+            echo "<td>".$item['featured_image']."</td>";
+            echo "<td><a href='".$block->getEditUrl($item['post_id'])."'>Edit</a> &nbsp;<a href='#'>Delete</a></td>";
+            echo "</tr>";
+    }
+    echo "</table>";
+?>
