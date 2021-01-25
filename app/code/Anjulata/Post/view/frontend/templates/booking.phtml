@@ -1,10 +1,19 @@
 <h1>Post page</h1>
-<?php print_r($block->getEditRecord()); ?>
+<?php
+/*echo "<pre>";
+print_r($block->getEditRecord());*/
+if( !empty($block->getEditRecord())){
+    $postData = $block->getEditRecord();
+}else{
+    $postData = null;
+}
+//echo '<pre>'; print_r($postData);exit;
+?>
 <!--<form action="--><?php //echo $block->getFormAction() ?><!--" method="post">-->
 <form id="custom_form" class="form" method="post" action="<?php echo $block->getFormAction() ?>" data-mage-init='{"validation":{"rules": {"post_content": {"required":true}}}}'>
     <fieldset class="fieldset">
     <input name="form_key" type="hidden" value="<?php echo $block->getFormKey();?>">
-
+    <input name="post_id" type="hidden" value="<?php  echo (isset($postData[0]['post_id']))?$postData[0]['post_id']:''?>">
     <!--<input name="firstname" type="text">
     <input name="lastname" type="text">
     <input name="phone" type="text">
@@ -13,49 +22,49 @@
         <div class="field name required">
             <label class="label" for="field-1"><span>Name</span></label>
             <div class="control">
-                <input name="name" id="name" title="name" value=""  class="input-text" type="text" data-validate='{"required":true}'/>
+                <input name="name" id="name" title="name" value="<?php echo (!empty($postData[0]['name']))? $postData[0]['name']:''?>"  class="input-text" type="text" data-validate='{"required":true}' />
             </div>
         </div>
         <div class="field name required">
             <label class="label" for="url-key"><span>url key</span></label>
             <div class="control">
-                <input name="url_key" id="url-key" title="url key" value="" type="text" class="input-text required-entry"/>
+                <input name="url_key" id="url-key" title="url key" value="<?php echo (!empty($postData[0]['url_key']))? $postData[0]['url_key']:''?>" type="text" class="input-text required-entry"/>
             </div>
         </div>
         <div class="field name required">
             <label class="label" for="field-4"><span>content</span></label>
             <div class="control">
-                <input name="post_content" id="post-content" title="post content" value="" class="input-text" type="text"/>
+                <input name="post_content" id="post-content" title="post content" value="<?php echo (!empty($postData[0]['post_content']))? $postData[0]['post_content']:''?>" class="input-text" type="text"/>
             </div>
         </div>
         <div class="field required">
             <label class="label" for="field-1"><span>tags</span></label>
             <div class="control">
-                <input name="ptags" id="tags" title="tags" value=""  class="input-text" type="text" data-validate='{"required":true}'/>
+                <input name="tags" id="tags" title="tags" value="<?php echo (!empty($postData[0]['tags']))? $postData[0]['tags']:''?>"  class="input-text" type="text" data-validate='{"required":true}'/>
             </div>
         </div>
         <div class="field required">
             <label class="label" for="field-1"><span>status</span></label>
             <div class="control">
-                <input name="pstatus" id="status" title="status" value=""  class="input-text" type="text" data-validate='{"required":true}'/>
+                <input name="status" id="status" title="status" value="<?php echo (!empty($postData[0]['status']))? $postData[0]['status']:''?>"  class="input-text" type="text" data-validate='{"required":true}'/>
             </div>
         </div>
         <div class="field name required">
             <label class="label" for="field-1"><span>featured image</span></label>
             <div class="control">
-                <input name="featured_image" id="featured-image" title="featured image" value=""  class="input-text" type="text" data-validate='{"required":true}'/>
+                <input name="featured_image" id="featured-image" title="featured image" value="<?php echo (!empty($postData[0]['featured_image']))? $postData[0]['featured_image']:''?>"  class="input-text" type="text" data-validate='{"required":true}'/>
             </div>
         </div>
         <div class="field required">
             <label for="email_address" class="label"><span><?php echo __('Email') ?></span></label>
             <div class="control">
-                <input type="email" name="email" id="email_address" value="" title="<?php echo __('Email') ?>" class="input-text" data-validate="{required:true, 'validate-email':true}">
+                <input type="email" name="email" id="email_address" value="<?php echo (!empty($postData[0]['email']))? $postData[0]['email']:''?>" title="<?php echo __('Email') ?>" class="input-text" data-validate="{required:true, 'validate-email':true}">
             </div>
         </div>
         <div class="field required">
             <label for="mobile" class="label"><span><?php echo __('mobile') ?></span></label>
             <div class="control">
-                <input type="text" name="mobile" id="mobile" value="" title="<?php echo __('mobile') ?>" class="input-text validate-digits mobileIN required-entry " >
+                <input type="text" name="mobile" id="mobile" value="<?= (isset($postData[0]['mobile']))? $postData[0]['mobile']:''?>" title="<?php echo __('mobile') ?>" class="input-text validate-digits mobileIN required-entry " >
             </div>
         </div>
         <div class="field ">
@@ -63,7 +72,7 @@
                 <span><?php echo __(' Date Picker')?></span>
             </label>
             <div class="field-control ">
-                <input class="control-text required-entry dateITA" name="cdate" id="datepicker" type="text">
+                <input class="control-text required-entry dateITA" name="cdate" id="datepicker" type="text" value="<?php echo (!empty($postData[0]['cdate']))? $postData[0]['cdate']:''?>">
             </div>
         </div>
         <div class="field post_status">

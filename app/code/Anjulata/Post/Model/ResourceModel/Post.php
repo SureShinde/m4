@@ -14,6 +14,6 @@ class Post extends AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('anjulata_post', 'id');
+        $this->_init('anjulata_post', 'post_id');
     }
 }

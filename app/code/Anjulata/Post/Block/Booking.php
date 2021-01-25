@@ -5,6 +5,7 @@ namespace Anjulata\Post\Block;
 use Magento\Framework\Data\Form\FormKey;
 use Magento\Framework\Controller\Result\RedirectFactory;
 //use Magento\Framework\View\Element\Template;
+use Anjulata\Post\Model\PostFactory;
 class Booking extends \Magento\Framework\View\Element\Template
 {
     protected $formKey;
@@ -57,10 +58,15 @@ class Booking extends \Magento\Framework\View\Element\Template
     }
     public function getEditRecord()
     {
-        $id = $this->_coreRegistry->registry('editRecordId');
+        /*$id = $this->_coreRegistry->registry('editRecordId');
         $post = $this->_postLoader->create();
         $result = $post->load($id);
         $result = $result->getData();
-        return $result;
+        return $result;*/
+
+        $postid = $this->_request->getParam('id');
+        $post = $this->_postLoader->create();
+        $collection = $post->getCollection()->addFieldToFilter('post_id', $postid);
+        return $collection->getData();
     }
 }

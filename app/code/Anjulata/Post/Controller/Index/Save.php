@@ -29,10 +29,20 @@ class Save extends Action
 
     public function execute()
     {
+        $data               = $this->getRequest()->getPost();
+
         //echo "test";exit;
         $resultRedirect     = $this->resultRedirectFactory->create();
-        $PostModel          = $this->_modelPostFactory->create();
-        $data               = $this->getRequest()->getPost();
+        if(isset($data['post_id'])){
+
+            $PostModel          = $this->_modelPostFactory->create()->getCollection()
+                ->addFieldToFilter('post_id', array('eq' => $data['post_id']));
+            $PostModel = $this->_modelPostFactory->create()->load($data['post_id']);
+//            $PostModel->setData('post_id', $data['post_id']);
+        }else{
+            $PostModel          = $this->_modelPostFactory->create();
+        }
+//        $PostModel          = $this->_modelPostFactory->create();
         //print_r($data);exit;
         //$date               = date('Y-m-d h:i:sa');
 
@@ -42,11 +52,17 @@ class Save extends Action
         $BlogModel->setData('created_date', $date);
         $BlogModel->setData('status', $data['status']);*/
 
+            //$PostModel->setData('post_id', $data['post_id']);
+
         $PostModel->setData('name', $data['name']);
+//        $PostModel->setName($data['name']);
+
         $PostModel->setData('url_key', $data['url_key']);
+//        $PostModel->setUrlKey('url_key', $data['url_key']);
+
         $PostModel->setData('post_content', $data['post_content']);
-        $PostModel->setData('ptags', $data['ptags']);
-        $PostModel->setData('pstatus', $data['pstatus']);
+        $PostModel->setData('tags', $data['tags']);
+        $PostModel->setData('status', $data['status']);
         $PostModel->setData('featured_image', $data['featured_image']);
         $PostModel->setData('email', $data['email']);
         $PostModel->setData('mobile', $data['mobile']);
@@ -56,8 +72,8 @@ class Save extends Action
        // $PostModel->setData($data);
 
         $PostModel->save();
+        $this->messageManager->addSuccessMessage(__('The data has been saved.'));
 
-        $this->_redirect('post/index/booking');
-        $this->messageManager->addSuccess(__('The data has been saved.'));
+        $this->_redirect('post/index');
     }
 }

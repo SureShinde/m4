@@ -31,8 +31,8 @@ class Booking extends \Magento\Framework\App\Action\Action
         $this->_view->loadLayout();
         $this->_view->renderLayout();
 
-        $id = $this->_request->getParam('id');
-        $this->_coreRegistry->register('editRecordId', $id);
+        //echo $id = $this->_request->getParam('id');exit;
+
         return $this->_pageFactory->create();
 
     }

@@ -4,6 +4,10 @@
         <title>HTML title - The post form page</title>
     </head>
     <body>
+        <referenceContainer name="page.messages">
+        <block class="Magento\Framework\View\Element\Template" name="ajax.message.placeholder" template="Magento_Theme::html/messages.phtml"/>
+        <block class="Magento\Framework\View\Element\Messages" name="messages" as="messages" template="Magento_Theme::messages.phtml"/>
+    </referenceContainer>
         <referenceBlock name="navigation.sections" remove="true" />
         <referenceContainer name="content">
             <block class="Anjulata\Post\Block\Booking" name="post.booking" template="Anjulata_Post::booking.phtml"/>
