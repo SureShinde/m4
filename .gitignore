@@ -52,7 +52,7 @@ Mkfile.old
 dkms.conf
 
 
-*.pub/
-*.generated/
-*.var/
+pub/*
+generated/*
+var/*
 
