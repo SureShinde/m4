@@ -1,0 +1,23 @@
+<?php declare(strict_types=1); ?>
+<?php echo $block->getBaseUrl(); ?>
+<?php echo get_class($block);?>
+<?php echo get_class($this);?>
+<div class="my-tea"></div>
+<div class="my-tea"
+     data-mage-init='{"Anjulata_RequireJsExample/js/script-target-my-tea":{
+            "baseUrl" : "<?= $block->getBaseUrl(); ?>",
+            "Myname" : "Gupta"
+            }}'>
+    My TEA
+</div>
+
+<script type="text/x-magento-init" >
+{
+    ".my-tea":{
+        "Anjulata_RequireJsExample/js/script-ex-amd":{
+            "baseUrl" : "<?= $block->getBaseUrl(); ?>",
+            "Myname" : "Pushpa"
+        }
+    }
+}
+</script>

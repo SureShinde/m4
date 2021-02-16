@@ -33,9 +33,17 @@ class Index extends \Magento\Framework\View\Element\Template
 //        return $this->_pageFactory->create();
         return $collection->getData();
     }
+    public function getPostUrl()
+    {        
+        return $this->getUrl('post/index/booking');
+    }
     public function getEditUrl($id)
     {
 
         return $this->getUrl('post/index/booking', ['id' => $id]);
+    }
+    public function getDeleteUrl($id)
+    {        
+        return $this->getUrl('post/index/delete', ['id' => $id]);
     }
 }

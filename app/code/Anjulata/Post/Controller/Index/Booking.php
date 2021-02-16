@@ -28,10 +28,8 @@ class Booking extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        $this->_view->loadLayout();
-        $this->_view->renderLayout();
-
-        //echo $id = $this->_request->getParam('id');exit;
+        /*$this->_view->loadLayout();
+        $this->_view->renderLayout();*/
 
         return $this->_pageFactory->create();
 

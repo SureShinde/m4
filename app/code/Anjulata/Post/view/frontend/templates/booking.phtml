@@ -10,7 +10,7 @@ if( !empty($block->getEditRecord())){
 //echo '<pre>'; print_r($postData);exit;
 ?>
 <!--<form action="--><?php //echo $block->getFormAction() ?><!--" method="post">-->
-<form id="custom_form" class="form" method="post" action="<?php echo $block->getFormAction() ?>" data-mage-init='{"validation":{"rules": {"post_content": {"required":true}}}}'>
+<form id="custom_form" class="form" method="post" action="<?php echo $block->getFormAction() ?>" data-mage-init='{"validation":{"rules": {"post_content": {"required":true}}}}' enctype="multipart/form-data">
     <fieldset class="fieldset">
     <input name="form_key" type="hidden" value="<?php echo $block->getFormKey();?>">
     <input name="post_id" type="hidden" value="<?php  echo (isset($postData[0]['post_id']))?$postData[0]['post_id']:''?>">
@@ -52,7 +52,7 @@ if( !empty($block->getEditRecord())){
         <div class="field name required">
             <label class="label" for="field-1"><span>featured image</span></label>
             <div class="control">
-                <input name="featured_image" id="featured-image" title="featured image" value="<?php echo (!empty($postData[0]['featured_image']))? $postData[0]['featured_image']:''?>"  class="input-text" type="text" data-validate='{"required":true}'/>
+                <input name="featured_image" id="featured-image" title="featured image" value="<?php echo (!empty($postData[0]['featured_image']))? $postData[0]['featured_image']:''?>"  class="input-text" type="file" data-validate='{"required":true}'/>
             </div>
         </div>
         <div class="field required">

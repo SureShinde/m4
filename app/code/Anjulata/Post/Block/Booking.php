@@ -56,6 +56,7 @@ class Booking extends \Magento\Framework\View\Element\Template
         return $this->getUrl('post/index/save');
         // here controller_name is index, action is booking
     }
+    
     public function getEditRecord()
     {
         /*$id = $this->_coreRegistry->registry('editRecordId');

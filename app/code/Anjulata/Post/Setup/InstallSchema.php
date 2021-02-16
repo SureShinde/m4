@@ -8,9 +8,9 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
     {
         $installer = $setup;
         $installer->startSetup();
-        if (!$installer->tableExists('anjulata_crud_post')) {
+        if (!$installer->tableExists('anjulata_post')) {
             $table = $installer->getConnection()->newTable(
-                $installer->getTable('anjulata_crud_post')
+                $installer->getTable('anjulata_post')
             )
                 ->addColumn(
                     'post_id',
